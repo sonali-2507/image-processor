@@ -5,7 +5,7 @@ import pytesseract
 
 # Load the image
 
-image_path = r'D:/scaler/bday1.jpg'
+image_path = r'bday1.jpg'
 image = cv2.imread(image_path)
 
 # Convert the image to grayscale
@@ -30,7 +30,7 @@ result = cv2.inpaint(image, cv2.cvtColor(mask, cv2.COLOR_BGR2GRAY), 3, cv2.INPAI
 cv2.imwrite('image1.png',result)
 
 # Open an image file
-img = Image.open(r'D:/scaler/bday1.jpg')
+img = Image.open(r'bday1.jpg')
 
 # Use Tesseract to do OCR on the image
 text = pytesseract.image_to_string(img)
