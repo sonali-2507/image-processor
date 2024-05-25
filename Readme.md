@@ -3,11 +3,11 @@
 This project aims to develop an image processing tool that can separate text and visual elements from an image. The tool will utilize various image processing techniques to analyze the image and extract the relevant information.
 
 ### Requirements
-Python 3.x
-OpenCV (cv2)
-NumPy
-Pillow (PIL)
-Tesseract-OCR and pytesseract
+1. Python 3.x
+2. OpenCV (cv2)
+3. NumPy
+4. Pillow (PIL)
+5. Tesseract-OCR and pytesseract
 To use this tool, follow the steps below:
 
 1. Install Python 3.x if it is not already installed on your system.
