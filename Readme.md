@@ -8,7 +8,8 @@ This project aims to develop an image processing tool that can separate text and
 3. NumPy
 4. Pillow (PIL)
 5. Tesseract-OCR and pytesseract
-To use this tool, follow the steps below:
+
+### To use this tool, follow the steps below:
 
 1. Install Python 3.x if it is not already installed on your system.
 2. Install the required Python libraries by running the following command in your terminal or command prompt:
