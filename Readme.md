@@ -29,3 +29,7 @@ python image_processor.py
 8. The tool will analyze the image and separate the text and visual elements.
 9. The processed image will be saved in the same directory as the original image with the prefix "image1" added to the file name.
 10. You can now access the separated text and visual elements for further analysis or use from output.html(open the file in any browser and check the ouput).
+
+### Chalanges encountered
+1. Faced chelange in configuration of tesseract.
+2. Tried project in java first, Encountered chalenge in configuration of open cv, So switch to python.
